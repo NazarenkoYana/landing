@@ -6,4 +6,4 @@ While working on this Landing used such technology:
 - Webpack
 
 # DEMO
-[LIVE DEMO](https://nazarenkoyana.github.io/landing-page/dist/index.html)
+[LIVE DEMO](https://nazarenkoyana.github.io/landing/dist/index.html)
