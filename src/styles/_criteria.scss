@@ -1,0 +1,25 @@
+section.criteria {
+  padding: 100px 0;
+
+  .criteria-card {
+    background-color: #d6d6d633;
+    margin-bottom: 29px;
+    min-width: 233px;
+    text-align: center;
+    white-space: nowrap;
+    padding: 30px 20px;
+
+    i {
+      font-size: 30px;
+      color: #129bff;
+      margin-bottom: 20px;
+    }
+
+    .criteria-card-item {
+      font-size: 12px;
+      color: black;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+  }
+}

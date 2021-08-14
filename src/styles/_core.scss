@@ -1,0 +1,53 @@
+.underline-heading {
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+
+  &:after {
+    content: "";
+    margin-top: 20px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #0e7ef3;
+    margin-bottom: 50px;
+  }
+
+  &.centered {
+    text-align: center;
+
+    &:after {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.container-button {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.form-control.white {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: white;
+
+  &::placeholder {
+    color: white;
+  }
+
+
+  &:focus {
+    background-color: transparent;
+  }
+}
+
+.btn {
+  text-transform: uppercase;
+
+  &.btn-danger {
+    color: white;
+  }
+}

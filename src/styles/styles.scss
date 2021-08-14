@@ -1,0 +1,20 @@
+@import "variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "core";
+@import "heading";
+@import "strategy";
+@import "mentor";
+@import "criteria";
+@import "reviews";
+@import "contact";
+@import "copyright";
+@import "timer";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  color: #45494a;
+}

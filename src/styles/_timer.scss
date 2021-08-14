@@ -1,0 +1,44 @@
+.container-timer {
+  display: block;
+  color: white;
+  text-align: center;
+
+  .container-timer-desc {
+    padding: 10px;
+    display: inline-block;
+
+    .container-inner-time {
+      display: block;
+      font-size: 33px;
+      line-height: 30px;
+      font-weight: 300;
+    }
+
+    .container-unit-of-time {
+      display: block;
+      font-size: 7px;
+      text-transform: uppercase;
+      position: relative;
+
+      &:after {
+        display: block;
+        content: ":";
+        position: absolute;
+        font-size: 25px;
+        bottom: 10px;
+        left: 45px;
+        box-sizing: border-box;
+      }
+    }
+
+    &:last-child .container-unit-of-time:after {
+      content: none;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 20px;
+  }
+}
+
+

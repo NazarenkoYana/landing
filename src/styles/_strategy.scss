@@ -1,0 +1,29 @@
+section.strategy {
+  padding: 100px 0;
+
+  .strategy-card {
+    text-align: center;
+
+    i {
+      font-size: 30px;
+      margin-bottom: 20px;
+      color: #129bff;
+    }
+
+    .strategy-card-item {
+      font-size: 14px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      white-space: nowrap;
+      font-weight: 400;
+    }
+
+    .strategy-card-about {
+      white-space: nowrap;
+    }
+
+    @include media-breakpoint-down(xl) {
+      margin-bottom: 30px;
+    }
+  }
+}

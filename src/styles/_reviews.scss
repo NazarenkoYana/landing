@@ -1,0 +1,36 @@
+section.reviews {
+  padding: 0 0 100px 0;
+
+  .reviews-card {
+
+    .reviews-content {
+      font-style: italic;
+      line-height: 27px;
+      white-space: nowrap;
+
+      &:before {
+        content: "\0022";
+        font-size: 110px;
+        opacity: 0.2;
+        display: block;
+        position: relative;
+        top: 60px;
+        left: -30px;
+      }
+    }
+
+    .reviews-desc {
+      margin-top: 30px;
+
+      p {
+        margin: 0;
+        font-weight: 700;
+      }
+
+      span {
+        font-size: 10px;
+      }
+    }
+  }
+
+}

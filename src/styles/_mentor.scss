@@ -1,0 +1,39 @@
+section.mentor {
+  .mentor-picture {
+    img {
+      max-width: 462px;
+      min-height: 346px;
+      object-fit: cover;
+      filter: grayscale(1) opacity(100%);
+      transition: max-width 2s;
+
+      @include media-breakpoint-down(lg) {
+        margin-bottom: 20px;
+      }
+      @include media-breakpoint-down(sm) {
+        max-width: 275px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .mentor-container {
+    .mentor-container-content {
+      ul {
+        padding: 0;
+
+        li {
+          list-style-type: none;
+          padding: 5px 0;
+          white-space: nowrap;
+
+          i {
+            font-size: 12px;
+            color: #129bff;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
